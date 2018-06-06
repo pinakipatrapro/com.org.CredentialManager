@@ -1,54 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Default suite" duration-ms="9645" started-at="2018-06-06T04:04:09Z" finished-at="2018-06-06T04:04:19Z">
+  <suite name="Default suite" duration-ms="26005" started-at="2018-06-06T06:22:21Z" finished-at="2018-06-06T06:22:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9645" started-at="2018-06-06T04:04:09Z" finished-at="2018-06-06T04:04:19Z">
+    <test name="Default test" duration-ms="26005" started-at="2018-06-06T06:22:21Z" finished-at="2018-06-06T06:22:47Z">
       <class name="com.org.UI5ExploredBasicStep.CreateTest">
-        <test-method status="PASS" signature="navToCreateCredPage()[pri:1, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="navToCreateCredPage" duration-ms="262" started-at="2018-06-06T04:04:09Z" finished-at="2018-06-06T04:04:10Z">
+        <test-method status="PASS" signature="navToCreateCredPage()[pri:1, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="navToCreateCredPage" duration-ms="249" started-at="2018-06-06T06:22:21Z" finished-at="2018-06-06T06:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navToCreateCredPage -->
-        <test-method status="PASS" signature="fillData()[pri:2, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="fillData" duration-ms="1263" started-at="2018-06-06T04:04:10Z" finished-at="2018-06-06T04:04:11Z">
+        <test-method status="PASS" signature="fillData()[pri:2, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="fillData" duration-ms="1621" started-at="2018-06-06T06:22:21Z" finished-at="2018-06-06T06:22:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillData -->
-        <test-method status="PASS" signature="resetFilledData()[pri:3, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="resetFilledData" duration-ms="201" started-at="2018-06-06T04:04:11Z" finished-at="2018-06-06T04:04:11Z">
+        <test-method status="PASS" signature="resetFilledData()[pri:3, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="resetFilledData" duration-ms="354" started-at="2018-06-06T06:22:23Z" finished-at="2018-06-06T06:22:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetFilledData -->
-        <test-method status="PASS" signature="saveData()[pri:4, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="saveData" duration-ms="3741" started-at="2018-06-06T04:04:11Z" finished-at="2018-06-06T04:04:15Z">
+        <test-method status="PASS" signature="saveData()[pri:4, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="saveData" duration-ms="4997" started-at="2018-06-06T06:22:23Z" finished-at="2018-06-06T06:22:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveData -->
-        <test-method status="PASS" signature="closeTab()[pri:99999, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="closeTab" duration-ms="4097" started-at="2018-06-06T04:04:15Z" finished-at="2018-06-06T04:04:19Z">
-=======
-  <suite name="Default suite" duration-ms="10337" started-at="2018-06-06T03:25:27Z" finished-at="2018-06-06T03:25:38Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="10337" started-at="2018-06-06T03:25:27Z" finished-at="2018-06-06T03:25:38Z">
-      <class name="com.org.UI5ExploredBasicStep.CreateTest">
-        <test-method status="PASS" signature="navToCreateCredPage()[pri:1, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="navToCreateCredPage" duration-ms="267" started-at="2018-06-06T03:25:27Z" finished-at="2018-06-06T03:25:28Z">
+        <test-method status="PASS" signature="editCreatedData()[pri:5, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="editCreatedData" duration-ms="3580" started-at="2018-06-06T06:22:28Z" finished-at="2018-06-06T06:22:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navToCreateCredPage -->
-        <test-method status="PASS" signature="fillData()[pri:2, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="fillData" duration-ms="1261" started-at="2018-06-06T03:25:28Z" finished-at="2018-06-06T03:25:29Z">
+        </test-method> <!-- editCreatedData -->
+        <test-method status="PASS" signature="createRandomRecordsAndSearch()[pri:6, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="createRandomRecordsAndSearch" duration-ms="13138" started-at="2018-06-06T06:22:32Z" finished-at="2018-06-06T06:22:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillData -->
-        <test-method status="PASS" signature="resetFilledData()[pri:3, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="resetFilledData" duration-ms="176" started-at="2018-06-06T03:25:29Z" finished-at="2018-06-06T03:25:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetFilledData -->
-        <test-method status="PASS" signature="saveData()[pri:4, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="saveData" duration-ms="4517" started-at="2018-06-06T03:25:29Z" finished-at="2018-06-06T03:25:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- saveData -->
-        <test-method status="PASS" signature="closeTab()[pri:99999, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="closeTab" duration-ms="4068" started-at="2018-06-06T03:25:34Z" finished-at="2018-06-06T03:25:38Z">
->>>>>>> master
+        </test-method> <!-- createRandomRecordsAndSearch -->
+        <test-method status="PASS" signature="closeTab()[pri:9999, instance:com.org.UI5ExploredBasicStep.CreateTest@70ed52de]" name="closeTab" duration-ms="2002" started-at="2018-06-06T06:22:45Z" finished-at="2018-06-06T06:22:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTab -->
