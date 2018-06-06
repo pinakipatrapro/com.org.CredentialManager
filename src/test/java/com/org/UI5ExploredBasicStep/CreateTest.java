@@ -30,7 +30,7 @@ public class CreateTest {
 	public void loginIntoSCP() {
 		eh.getElementById("j_username",wd).sendKeys("pinaki.patra.pro@gmail.com");
 		eh.getElementById("j_password",wd).sendKeys("Pinaki@321");
-		eh.getElementById("j_password",wd).click();
+		eh.getElementById("logOnFormSubmit",wd).click();
 	}
 	@Test(priority = 1)
 	public void navToCreateCredPage() {
