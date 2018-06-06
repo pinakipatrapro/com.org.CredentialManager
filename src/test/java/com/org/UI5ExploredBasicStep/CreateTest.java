@@ -12,7 +12,7 @@ import com.org.UI5ExploredBasicStep.util.ElementHelper;
 
 public class CreateTest {
 	static LoadDrivers drivers = new LoadDrivers();
-	private static final WebDriver wd = drivers.openUrl("http://127.0.0.1:5500/LocalStorage/WebContent/index.html");;
+	private static final WebDriver wd = drivers.openUrl("https://credentialmanager-p1942051505trial.dispatcher.hanatrial.ondemand.com");;
 	private static final ElementHelper eh = new ElementHelper();
 	public String randGenStr;
 
