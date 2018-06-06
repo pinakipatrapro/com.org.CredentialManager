@@ -6,6 +6,11 @@
       <class name="com.org.UI5ExploredBasicStep.CreateTest">
         <methods>
           <include name="createRandomRecordsAndSearch"/>
+          <include name="saveData"/>
+          <include name="navToCreateCredPage"/>
+          <include name="fillData"/>
+          <include name="resetFilledData"/>
+          <include name="editCreatedData"/>
         </methods>
       </class> <!-- com.org.UI5ExploredBasicStep.CreateTest -->
     </classes>
